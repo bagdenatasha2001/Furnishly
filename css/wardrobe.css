@@ -1,0 +1,27 @@
+body{
+    background-color: lightyellow;
+}
+
+.heart-symbol {
+    
+    margin-top: 2px;
+    margin-bottom: 2px;
+    transition: all 0.4s ease-in;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+   color:rgb(26, 26, 83);
+   background-color: rgb(171, 193, 206);
+    
+
+}
+
+.heart-symbol:hover {
+    display: block;
+    color: #ffffff;
+    background-color: rgb(145, 31, 16);
+    border: 1px solid black;
+}
