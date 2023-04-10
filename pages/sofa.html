@@ -57,67 +57,136 @@
   
 }
 
+.cart:hover{
+    hover:zoom:
+}
+.navbar-text{
+    margin-left: 80px;
+}
+#c1{
+    margin-left: 40px;
+}
+.nav-link{
+    color: rgba(10, 1, 1, 0.922);
+    font-size: larger;
+}
+.nav-link:hover{
+   background-color:  #f8f8f8;
+   border-radius: 7px;
+}
+.navbar-text{
+    text-decoration: none;
+    color:  rgba(10, 1, 1, 0.922);
+}
+.navbar-text-hover-zoom {
+  height: 300px; /* Modify this according to your need */
+  overflow: hidden; 
+}
+.container-fluid-1{
+  background-color: rgb(97, 29, 29);
+}
+.search-bar{
+  margin-left: 70px;
+  scroll-padding-inline-start: ;
+  height: 35px;
+  ;
+  
+}
+.nav-it{
+  margin-top: 50px;
+}
+.nnav{
+  margin-top: 30px;
+  background-color: white;
+}
+.nav-2{
+   height: 100px;
+   
+}
+.nav-2ele{
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.wish{
+  height: 30px;
+    width: 30px;
+    margin-left: 670px;
+    padding-top: 5px;
+}
+
 </style>
 <body>
 
-    <div class="head-container">
-        <div class="head-child col-4">
-            <img src="../images/2.png" class="logo" /> 
-        </div>
-        
-        <div class="navbar1 bg-body-warning col-8">
-            <div class="container-fluid ">
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-warning" type="submit">Search</button>
-              </form>
-            </div>
-            <div class="cart-1 col-4">
-                
-                    <img src="../images/heart.jpg" />
-                      
-            </div>
-           
-        </div>
-    </div>  
-            <br/> <br/> <br/>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid bg-warning">
-          <a class="navbar-brand" href="./../index.html">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../pages/sofa.html">Sofa</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/wardrobe.html">Wardrobe</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/bed.html">Bed</a>
-              </li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/Dinnig.html">Dining</a>
-            </li>
-            </ul>
-            <span class="navbar-text">
-                Log In
-              </span>
-              &nbsp; &nbsp;  &nbsp; 
-            <span class="navbar-text">
-              sign up
-            </span>
-            <span class="navbar-text">
-                <img src="../images/cart.png"class="cart">
-              </span>
-
-          </div>
-        </div>
-      </nav>
-         
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid nnav">
+      <a class="navbar-brand" href="./../index.html"><img src="../images/2.png" class="logo " /> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active nav-it" aria-current="page" href="./../index.html"><b>Home</b></a>
+          </li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link nav-it" href="#"><b>About us</b></a>
+          </li>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 search-bar " type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning
+          /" type="submit">Search</button>
+        </form>
+        <li class="nav-item">
+          <a class="nav-link nav-it" href="#" > <b>Log In</b> </a>
+        </li>
+        &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+          <a class="nav-link nav-it " href="#"><b >Sign Up </b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#"><b class="nav-it"> </b><img src="../images/cart.png"  class="cart nav-it  hover-zoom"></a>
+        </li>
+      </ul>
+      </ul>
+      </div>
+    </div>
+  </nav> 
+  
+  <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./../index.html"><b>Home</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../pages/sofa.html"><b>Sofa</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/wardrobe.html"><b>Wardrobe</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Dinnig.html"><b>Dining</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="../pages/bed.html"><b>Bed</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Tv" href="../pages/tv-units.html"><b>TvUnits</b></a>
+          </li>
+          <li class="nav-item">
+            <a class=""href="#"><img src="../images/heart.png" class="wish"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
     
          
         
