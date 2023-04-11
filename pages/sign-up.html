@@ -13,7 +13,7 @@
    
   
         .logo{
-          height: 100px;
+        height: 100px;
         width: 70 px;
        
         }
@@ -80,9 +80,7 @@
   height: 300px; /* Modify this according to your need */
   overflow: hidden; 
 }
-.container-fluid-1{
-  background-color: rgb(97, 29, 29);
-}
+
 .search-bar{
   margin-left: 70px;
   scroll-padding-inline-start: ;
@@ -94,7 +92,7 @@
   margin-top: 50px;
 }
 .nnav{
-  
+ 
   background-color: white;
 }
 .nav-2{
@@ -112,6 +110,126 @@
     width: 30px;
     margin-left: 670px;
     padding-top: 5px;
+}
+
+body{
+        background-color: lightyellow;
+    }
+    body{
+    margin: 0px;
+    padding: 0px;
+	width: 100%;
+	background-color: white;
+	
+}
+.main{
+    height: 700px;
+    width: 650px;
+    margin-top: 140px;
+    margin-left: 38%;
+    text-align: center;
+    margin:8% auto;
+	background-color: white;
+	padding:1px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 3px rgba(95, 94, 94, 0.767);
+}
+
+h2{
+    font-size: 35px;
+}
+p{
+    font-size: 20px;
+}
+#form{
+    margin: 40px;
+}
+
+#name{
+    width: 500px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 15px;
+    background-color: #fff;
+    color: black;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+
+}
+label{
+    font-size: 25px;
+}
+
+.radio{
+    font-size: 20px;
+   text-align: center;
+   padding-right: 10%;
+}
+
+/* mobile */
+@media screen and (min-width:450px) and (max-width:768px)
+{
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        background-color: white;
+        
+    }
+    .main{
+        height: 750px;
+        width: 400px;
+        margin-top: 140px;
+        margin-left: 38%;
+        text-align: center;
+        margin:8% auto;
+        background:white;
+        padding:1px;
+        border-radius: 5px;
+        box-shadow: 0 0 4px 3px rgba(95, 94, 94, 0.767);
+    }
+
+    #name{
+        width: 300px;
+        margin-top: 10px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline: 0;
+        padding: 15px;
+        background-color: #fff;
+        color: black;
+        box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+    
+    }
+
+}
+
+/* laptop */
+@media screen and (min-width:992px) and (max-width:1200px)
+{
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        background-color:white;
+        
+    }
+    .main{
+        height: 700px;
+        width: 650px;
+        margin-top: 140px;
+        margin-left: 38%;
+        text-align: center;
+        margin:8% auto;
+        background-color: white;
+        padding:1px;
+        border-radius: 5px;
+        box-shadow: 0 0 4px 3px rgba(95, 94, 94, 0.767);
+    }
+
 }
 
 </style>
@@ -184,8 +302,54 @@
       </div>
     </div>
   </nav>
-    
+  
          
+    <div class="main">
+       
+        <!-- <text>Register Here</text> -->
+        <h2 style="align-items:center;">Sign in to complete your order</h2>
+        <p  style="align-items:center">Dont't have an account?<a href='./../pages/log-in.html'><b>Log In</b></a></p>
+       
+        <form  method="post">
+            <!-- <label>First Name</label><br> -->
+            <input type="text" name="fname" id="name" placeholder="Enter Your First Name">
+            <br><br>
+            <!-- <label>Last Name</label><br> -->
+            <input type="text" name="lname" id="name" placeholder="Enter Your Last Name">
+            <br><br>
+            <!-- <label>Your Age</label><br> -->
+            <input type="number" name="age" id="name" placeholder="How old you are?">
+            <br><br>
+            <!-- <label>Email</label><br> -->
+            <input type="email" name="email" id="name" placeholder="Enter Your email">
+            <br><br>
+            <!-- <label>Password</label><br> -->
+            <input type="password" name="password" id="name" placeholder="Enter Your Password">
+            <br>
+
+            <div class="radio">
+            <label>&nbsp;&nbsp;&nbsp;<b>Gender</b></label><br><br>
+            <input type="radio" name="gender">
+            <span >Male</span>
+            &nbsp; &nbsp; &nbsp;
+            <input type="radio" name="gender">
+            <span>Female</span>
+            <br><br>
+            </div>
+            <div class="d-grid text-center  " >
+              <button class="btn btn-warning" type="button">Sign up</button>
+               
+              </div>
+           
+
+
+
+        </form>
+
+
+
+    
+   </div> <!-- end main -->
         
 
         

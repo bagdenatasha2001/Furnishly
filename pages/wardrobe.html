@@ -7,13 +7,13 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../css/wardrobe.css ">
     <style>
         .logo{
-        margin-top: 50px;
+       
         height: 100px;
-        width: 140 px;
-        margin-left: 25px;
-        
+        width: 70 px;
+       
     }
     .container{
         width:100%;
@@ -53,70 +53,278 @@
     width: 40px;
   
 }
+.cart:hover{
+    hover:zoom:
+}
+.navbar-text{
+    margin-left: 80px;
+}
+#c1{
+    margin-left: 40px;
+}
+.nav-link{
+    color: rgba(10, 1, 1, 0.922);
+    font-size: larger;
+}
+.nav-link:hover{
+   background-color:  #f8f8f8;
+   border-radius: 7px;
+}
+.navbar-text{
+    text-decoration: none;
+    color:  rgba(10, 1, 1, 0.922);
+}
+.navbar-text-hover-zoom {
+  height: 300px; 
+  overflow: hidden; 
+}
+.container-fluid-1{
+  background-color: rgb(97, 29, 29);
+}
+.search-bar{
+  margin-left: 70px;
+  scroll-padding-inline-start: ;
+  height: 35px;
+  ;
+  
+}
+.nav-it{
+  margin-top: 50px;
+}
+.nnav{
+ 
+  background-color: white;
+}
+.nav-2{
+   height: 100px;
+   
+}
+.nav-2ele{
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.wish{
+  height: 30px;
+    width: 30px;
+    margin-left: 670px;
+    padding-top: 5px;
+}
 
 </style>
 <body>
 
-    <div class="head-container">
-        <div class="head-child col-4">
-            <img src="../images/2.png" class="logo" /> 
-        </div>
-        
-        <div class="navbar1 bg-body-warning col-8">
-            <div class="container-fluid ">
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-warning" type="submit">Search</button>
-              </form>
-            </div>
-            <div class="cart-1 col-4">
-                
-                    <img src="../images/heart.jpg" />
-                      
-            </div>
-           
-        </div>
-    </div>  
-            <br/> <br/> <br/>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid bg-warning">
-          <a class="navbar-brand" href="./../index.html">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../pages/sofa.html">Sofa</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/wardrobe.html">Wardrobe</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/bed.html">Bed</a>
-              </li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/Dinnig.html">Dining</a>
-            </li>
-            </ul>
-            <span class="navbar-text">
-                Log In
-              </span>
-              &nbsp; &nbsp;  &nbsp; 
-            <span class="navbar-text">
-              sign up
-            </span>
-            <span class="navbar-text">
-                <img src="../images/cart.png"class="cart">
-              </span>
-
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid nnav">
+      <a class="navbar-brand" href="./../index.html"><img src="../images/2.png" class="logo " /> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active nav-it" aria-current="page" href="./../index.html"><b>Home</b></a>
+          </li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link nav-it" href="../pages/aboutus.html"><b>About us</b></a>
+          </li>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 search-bar " type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning
+          /" type="submit">Search</button>
+        </form>
+        <li class="nav-item">
+          <a class="nav-link nav-it" href="../pages/log-in.html" > <b>Log In</b> </a>
+        </li>
+        &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+          <a class="nav-link nav-it " href="../pages/sign-up.html"><b >Sign Up </b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#"><b class="nav-it"> </b><img src="../images/cart.png"  class="cart nav-it  hover-zoom"></a>
+        </li>
+      </ul>
+      </ul>
+      </div>
+    </div>
+  </nav> 
+  
+  <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./../index.html"><b>Home</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../pages/sofa.html"><b>Sofa</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/wardrobe.html"><b>Wardrobe</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Dinnig.html"><b>Dining</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="../pages/bed.html"><b>Bed</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Tv" href="../pages/tv-units.html"><b>TvUnits</b></a>
+          </li>
+          <li class="nav-item">
+            <a class=""href="#"><img src="../images/heart.png" class="wish"></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+  <h1 style="text-align:center;font-family: Georgia, 'Times New Roman', Times, serif;  color:rgb(26, 26, 83);"> WARDROBE</h1>
+  <div class="row mt-3 ms-5 " >
+    <div class="col-sm-3 mb-3 ">
+        <div class="card   " style="width: 18rem;">
+          <h6 class="heart-symbol text-center">🤍 Add to  Wishlist</h6>
+          <img src="./../images/wardrobe-img/image1.jpeg" class="card-img-top" alt="..." style="height:18rem">
+          <div class="card-body text-center">
+            <h6 class="card-title "> <b>Zoey Engineered Wood 3 Door Wardrobe  </b></h6>
+            <p class="card-text "> <b>₹13,249 </b></p>
+            <a href="#" class="btn btn-warning">know more</a>
           </div>
         </div>
-      </nav>
-         
+      </div>
+    <div class="col-sm-3 mb-3">
+      <div class="card " style="width: 18rem;">
+        <h6 class="heart-symbol text-center">🤍 Add to  Wishlist</h6>
+        <img src="./../images/wardrobe-img/image2.jpeg" class="card-img-top" alt="..." style="height:18rem">
+        <div class="card-body text-center">
+          <h6 class="card-title ">Avalon Engineered Wood 2 Door Wardrobe In Chocolate Oak And Silver Grey Finish</h6>
+          <p class="card-text ">₹52,924</p>
+          <a href="#" class="btn btn-warning">know more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-3 ">
+        <div class="card" style="width: 18rem;">
+          <h6 class="heart-symbol text-center">🤍 Add to  Wishlist</h6>
+          <img src="./../images/wardrobe-img/image3.jpeg" class="card-img-top" alt="..." style="height:18rem">
+          <div class="card-body text-center">
+            <h6 class="card-title">Miller Engineered Wood 3 Door Wardrobe With Mirror In Two Tone Finish</h6>
+            <p class="card-text">₹23,654</p>
+            <a href="#" class="btn btn-warning">know more</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-3 mb-3 ">
+        <div class="card" style="width: 18rem;">
+          <h6 class="heart-symbol text-center">🤍 Add to  Wishlist</h6>
+          <img src="./../images/wardrobe-img/image4.jpeg" class="card-img-top" alt="..." style="height:18rem">
+          <div class="card-body text-center">
+            <h6 class="card-title">Element Engineered Wood 4 Door Wardrobe In Walnut Finish</h6>
+            <p class="card-text">₹67,494</p>
+            <a href="#" class="btn btn-warning">know more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 mb-3 ">
+        <div class="card" style="width: 18rem;">
+          <h6 class="heart-symbol text-center">🤍 Add to  Wishlist</h6>
+          <img src="./../images/wardrobe-img/image5.jpeg" class="card-img-top" alt="..." style="height:18rem">
+          <div class="card-body text-center">
+            <h6 class="card-title ">Regal Engineered Wood 3 Door Wardrobe With Mirror In Walnut Marble Finish</h6>
+            <p class="card-text">₹24,856</p>
+            <a href="#" class="btn btn-warning">know more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 mb-3 ">
+        <div class="card" style="width: 18rem;">
+          <h6 class="heart-symbol text-center">🤍 Add to  Wishlist</h6>
+          <img src="./../images/wardrobe-img/image6.jpeg" class="card-img-top" alt="..." style="height:18rem">
+          <div class="card-body text-center">
+            <h6 class="card-title">Lauren Engineered Wood 4 Door Wardrobe With Mirror In Matte Finish</h6>
+            <p class="card-text">₹39,509</p>
+            <a href="#" class="btn btn-warning">know more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 mb-3 ">
+        <div class="card" style="width: 18rem;">
+          <h6 class="heart-symbol text-center">🤍 Add to  Wishlist</h6>
+          <img src="./../images/wardrobe-img/image7.jpeg" class="card-img-top" alt="..." style="height:18rem">
+          <div class="card-body text-center">
+            <h6 class="card-title">Willy Engineered Wood 4 Door Wardrobe With Mirror In Melamine Finish</h6>
+            <p class="card-text">₹22,528</p>
+            <a href="#" class="btn btn-warning">know more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 mb-3 ">
+        <div class="card" style="width: 18rem;">
+          <h6 class="heart-symbol text-center">🤍 Add to  Wishlist</h6>
+          <img src="./../images/wardrobe-img/image8.jpeg" class="card-img-top" alt="..." style="height:18rem">
+          <div class="card-body text-center">
+            <h6 class="card-title">Emirates Engineered Wood 4 Door Wardrobe With Mirror In Wenge Finish</h6>
+            <p class="card-text">₹65,274</p>
+            <a href="#" class="btn btn-warning">know more</a>
+          </div>
+        </div>
+      </div>
+     
+      <div class="col-sm-3 mb-3 ">
+        <div class="card" style="width: 18rem;">
+          <h6 class="heart-symbol text-center">🤍 Add to  Wishlist</h6>
+          <img src="./../images/wardrobe-img/image9.jpeg" class="card-img-top" alt="..." style="height:18rem">
+          <div class="card-body text-center">
+            <h6 class="card-title">Hilton Engineered Wood 3 Door Wardrobe With Mirror In Spiced Acacia Finish</h6>
+            <p class="card-text">₹21,579</p>
+            <a href="#" class="btn btn-warning">know more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 mb-3 ">
+        <div class="card" style="width: 18rem;">
+          <h6 class="heart-symbol text-center">🤍 Add to  Wishlist</h6>
+          <img src="./../images/wardrobe-img/image10.jpeg" class="card-img-top" alt="..." style="height:18rem">
+          <div class="card-body text-center">
+            <h6 class="card-title">Elanza Engineered Wood 4 Door Wardrobe In Matte Laminate Finish</h6>
+            <p class="card-text">₹63,999</p>
+            <a href="#" class="btn btn-warning">know more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 mb-3 ">
+        <div class="card" style="width: 18rem;">
+          <h6 class="heart-symbol text-center">🤍 Add to  Wishlist</h6>
+          <img src="./../images/wardrobe-img/image11.jpeg" class="card-img-top" alt="..." style="height:18rem">
+          <div class="card-body text-center">
+            <h6 class="card-title">Amazon Engineered Wood 3 Door Wardrobe In Matte Finish</h6>
+            <p class="card-text">₹36,924</p>
+            <a href="#" class="btn btn-warning">know more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3  ">
+        <div class="card" style="width: 18rem;">
+          <h6 class="heart-symbol text-center">🤍 Add to  Wishlist</h6>
+          <img src="./../images/wardrobe-img/image12.jpeg" class="card-img-top" alt="..." style="height:18rem">
+          <div class="card-body text-center">
+            <h6 class="card-title">Rolex Engineered Wood 6 Door Wardrobe In Melamine Finish</h6>
+            <p class="card-text">₹79,200</p>
+            <a href="#" class="btn btn-warning">know more</a>
+          </div>
+        </div>
+      </div>
+     
+  </div>
+
+     
     
-         
         
 
         
